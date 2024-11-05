@@ -12,6 +12,7 @@ import tempfile
 from gtts import gTTS
 from io import BytesIO
 from streamlit_mic_recorder import speech_to_text
+from PIL import Image
 import base64
 import os
 import re
@@ -287,7 +288,24 @@ def main():
         initial_sidebar_state="expanded"
     )
 
-    st.image("gisonkoAI white 2-01 (1).jpg", width=200)
+    image = Image.open('Medicine-Higher-Life-Foundation.jpg')
+    st.image(image, width = 200)
+
+    st.markdown("""
+<style>
+.sidebar .sidebar-content {
+    background-color: #f5f5f5;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+.sidebar .sidebar-header {
+    font-size: 1.5em;
+    color: #333;
+}
+</style>
+""", unsafe_allow_html=True)
+    
+
     # Main Title
     st.title("📄 GinoskoAI's Voicebot - Chat with Your Documents")
 
