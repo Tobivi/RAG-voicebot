@@ -288,7 +288,7 @@ def main():
     )
 
     # Main Title
-    st.title("📄 Ginoskos Voicebot - Chat with Your Documents")
+    st.title("📄 GinoskoAI's Voicebot - Chat with Your Documents")
 
     # Subheader
     st.subheader(
