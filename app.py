@@ -287,6 +287,7 @@ def main():
         initial_sidebar_state="expanded"
     )
 
+    st.image("gisonkoAI white 2-01 (1).jpg", width=200)
     # Main Title
     st.title("📄 GinoskoAI's Voicebot - Chat with Your Documents")
 
