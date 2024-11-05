@@ -288,7 +288,7 @@ def main():
         initial_sidebar_state="expanded"
     )
 
-    image = Image.open('Medicine-Higher-Life-Foundation.jpg')
+    image = Image.open('gisonkoAI white 2-01 (1).jpg')
     st.image(image, width = 200)
 
     st.markdown("""
